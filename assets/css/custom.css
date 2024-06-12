@@ -70,8 +70,8 @@ body::-webkit-scrollbar-thumb {
 .app-sidebar {
   height: 41.5rem !important;
 }
-div#kt_aside_menu_wrapper {
-  padding: 0px !important;
+div#kt_aside_menu_wrapper{
+    padding: 0px !important;
 }
 
 .color-black-1 {
