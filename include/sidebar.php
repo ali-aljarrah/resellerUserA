@@ -271,33 +271,28 @@
                     <div class="menu-item">
                         <!--begin:Menu content-->
                         <div class="menu-content">
-                            <span class="menu-section fs-5 fw-bolder ps-1 py-1">send_sms</span>
+                            <span class="menu-section fs-5 fw-bolder ps-1 py-1">Send SMS</span>
                         </div>
                         <!--end:Menu content-->
                     </div>
-                    <!--end:Menu item-->
-                    <!--begin:Menu item-->
-                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+                    <div class="menu-item">
                         <!--begin:Menu link-->
-                        <span class="menu-link">
+                        <a class="menu-link active" href="#">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
                             <span class="menu-title">Single SMS</span>
-                        </span>
+                        </a>
                         <!--end:Menu link-->
-                     
                     </div>
-                    <!--end:Menu item-->
-                    <!--begin:Menu item-->
-                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+                    <div class="menu-item">
                         <!--begin:Menu link-->
-                        <span class="menu-link">
+                        <a class="menu-link" href="#">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
                             <span class="menu-title">Bulk SMS</span>
-                        </span>
+                        </a>
                         <!--end:Menu link-->
                     </div>
                     <!--end:Menu item-->
