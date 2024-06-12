@@ -27,9 +27,7 @@
 					<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-base">
 						<!--begin::Item-->
 						<li class="breadcrumb-item text-muted">
-							<a href="index.html" class="text-muted text-hover-primary">
 								<?php echo $parentPage; ?>
-							</a>
 						</li>
 						<!--end::Item-->
 						<!--begin::Item-->
