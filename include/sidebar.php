@@ -7,9 +7,11 @@
             <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item here show py-2">
                 <!--begin:Menu link-->
                 <span class="menu-link menu-center">
-                    <span class="menu-icon me-0">
-                        <i class="ki-outline ki-home-2 fs-1"></i>
-                    </span>
+                    <a class="menu-link" href="/index">
+                        <span class="menu-icon me-0">
+                            <i class="ki-outline ki-home-2 fs-1"></i>
+                        </span>
+                    </a>
                 </span>
                 <!--end:Menu link-->
              
