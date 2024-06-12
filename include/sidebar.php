@@ -277,7 +277,7 @@
                     </div>
                     <div class="menu-item">
                         <!--begin:Menu link-->
-                        <a class="menu-link" href="/send-sms">
+                        <a class="menu-link" href="/send_sms">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
@@ -287,7 +287,7 @@
                     </div>
                     <div class="menu-item">
                         <!--begin:Menu link-->
-                        <a class="menu-link" href="/bulk-sms">
+                        <a class="menu-link" href="/bulksms">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
