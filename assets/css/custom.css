@@ -75,6 +75,52 @@ div#kt_aside_menu_wrapper{
     overflow-y: hidden !important;
 }
 
+span.menu-link.menu-center:hover{
+    background-color: #0E41C1;
+}
+
+span.menu-link.menu-center:hover i.ki-outline.ki-home-2.fs-1{
+    color: #fff !important;
+}
+
+span.menu-link.menu-center:hover i.ki-duotone.ki-star.icon-header{
+    color: #fff !important;
+}
+
+span.menu-link.menu-center:hover i.ki-duotone.ki-message-text-2.icon-header{
+    color: #fff !important;
+}
+
+span.menu-link.menu-center:hover i.ki-duotone.ki-eye.icon-header{
+    color: #fff !important;
+}
+
+span.menu-link.menu-center:hover i.ki-duotone.ki-chart-pie-4.icon-header{
+    color: #fff !important;
+}
+
+span.menu-link.menu-center:hover i.ki-duotone.ki-wallet.icon-header{
+    color: #fff !important;
+}
+
+span.menu-link.menu-center:hover i.ki-duotone.ki-pin.icon-header{
+    color: #fff !important;
+}
+
+span.menu-link.menu-center:hover i.ki-duotone.ki-geolocation.icon-header{
+    color: #fff !important;
+}
+
+span.menu-link.menu-center:hover i.ki-duotone.ki-setting-2.icon-header{
+    color: #fff !important;
+}
+
+/* end sidebar */
+
+
+.bg-blue{
+    background-color: #0E41C1;
+}
 .color-black-1 {
   color: #121212 !important;
 }
