@@ -72,6 +72,7 @@ body::-webkit-scrollbar-thumb {
 }
 div#kt_aside_menu_wrapper{
     padding: 0px !important;
+    overflow-y: hidden !important;
 }
 
 .color-black-1 {
