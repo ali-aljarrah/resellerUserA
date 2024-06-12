@@ -27,14 +27,18 @@
 					<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-base">
 						<!--begin::Item-->
 						<li class="breadcrumb-item text-muted">
-							<a href="index.html" class="text-muted text-hover-primary">Home</a>
+							<a href="index.html" class="text-muted text-hover-primary">
+								<?php echo $parentPage; ?>
+							</a>
 						</li>
 						<!--end::Item-->
 						<!--begin::Item-->
 						<li class="breadcrumb-item text-muted">/</li>
 						<!--end::Item-->
 						<!--begin::Item-->
-						<li class="breadcrumb-item black">Dashboard</li>
+						<li class="breadcrumb-item black">
+							<?php echo $childPage;?>
+						</li>
 						<!--end::Item-->
 					</ul>
 					<!--end::Breadcrumb-->
