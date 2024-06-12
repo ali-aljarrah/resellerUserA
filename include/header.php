@@ -18,6 +18,7 @@
 		<div class="d-flex flex-lg-grow-1 flex-stack" id="kt_app_header_wrapper">
 			<div class="app-header-wrapper d-flex align-items-center justify-content-around justify-content-lg-between flex-wrap gap-6 gap-lg-0 mb-6 mb-lg-0" data-kt-swapper="true" data-kt-swapper-mode="{default: 'prepend', lg: 'prepend'}" data-kt-swapper-parent="{default: '#kt_app_content_container', lg: '#kt_app_header_wrapper'}">
 				<!--begin::Page title-->
+				<div class="d-none d-md-block h-40px border-start border-gray-200 mx-10"></div>
 				<div class="d-flex flex-column justify-content-center">
 					<!--begin::Title-->
 					<!-- <h1 class="text-gray-900 fw-bold fs-6 mb-2">Chartmix - Finance Team</h1> -->
@@ -39,7 +40,7 @@
 					<!--end::Breadcrumb-->
 				</div>
 				<!--end::Page title-->
-				<div class="d-none d-md-block h-40px border-start border-gray-200 mx-10"></div>
+				
 				<div class="d-flex gap-3 gap-lg-8 flex-wrap">
 					<div class="d-flex align-items-center gap-2">
 						<!-- <div class="rounded d-flex flex-center w-40px h-40px flex-shrink-0 bg-warning">
