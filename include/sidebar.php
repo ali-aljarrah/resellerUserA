@@ -8,10 +8,12 @@
                 <!--begin:Menu link-->
                
                     <a class="menu-link" href="/">
+                      <span class="menu-link menu-center">
                         <i class="ki-duotone ki-home-2 icon-header">
                              <span class="path1"></span>
                              <span class="path2"></span>
                         </i>
+                      </span>
                     </a>
                
                 <!--end:Menu link-->
@@ -237,12 +239,14 @@
               <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item py-2">
                 <!--begin:Menu link-->
                 <a class="menu-link" href="/reload_account_ec">
+                  <span class="menu-link menu-center">
                     <i class="ki-duotone ki-wallet icon-header">
                         <span class="path1"></span>
                         <span class="path2"></span>
                         <span class="path3"></span>
                         <span class="path4"></span>
                     </i>
+                  </span>
                 </a>
                 <!--end:Menu link-->
                 <!--begin:Menu sub-->
@@ -264,10 +268,12 @@
             <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item py-2">
                 <!--begin:Menu link-->
                 <a class="menu-link" href="/api_references">
+                  <span class="menu-link menu-center">
                     <i class="ki-duotone ki-pin icon-header">
                         <span class="path1"></span>
                         <span class="path2"></span>
                     </i>
+                  </span>
                 </a>
                 <!--end:Menu link-->
 
@@ -277,10 +283,12 @@
             <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item py-2">
                 <!--begin:Menu link-->
                 <a class="menu-link" href="/cov">
-                   <i class="ki-duotone ki-geolocation icon-header">
-                     <span class="path1"></span>
-                     <span class="path2"></span>
-                   </i>
+                  <span class="menu-link menu-center">
+                      <i class="ki-duotone ki-geolocation icon-header">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                      </i>
+                  </span>
                 </a>
                 <!--end:Menu link-->
 
@@ -290,10 +298,12 @@
             <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item py-2">
                 <!--begin:Menu link-->
                 <a class="menu-link" href="/settings">
-                    <i class="ki-duotone ki-setting-2 icon-header">
+                  <span class="menu-link menu-center">
+                     <i class="ki-duotone ki-setting-2 icon-header">
                         <span class="path1"></span>
                         <span class="path2"></span>
-                    </i>
+                     </i>
+                  </span>
                 </a>
                 <!--end:Menu link-->
             </div>
