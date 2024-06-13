@@ -8,7 +8,9 @@
                 <!--begin:Menu link-->
                
                     <a class="menu-link" href="/">
-                        <i class="ki-duotone ki-home icon-header">
+                        <i class="ki-duotone ki-home-2 icon-header">
+                             <span class="path1"></span>
+                             <span class="path2"></span>
                         </i>
                     </a>
                
