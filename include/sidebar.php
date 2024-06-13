@@ -8,9 +8,8 @@
                 <!--begin:Menu link-->
                
                     <a class="menu-link" href="/">
-                        <span class="menu-icon me-0">
-                            <i class="ki-outline ki-home-2 fs-1"></i>
-                        </span>
+                        <i class="ki-duotone ki-home icon-header">
+                        </i>
                     </a>
                
                 <!--end:Menu link-->
