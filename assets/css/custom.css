@@ -81,6 +81,7 @@ span.menu-link.menu-center:hover{
 
 span.menu-link.menu-center:hover i.ki-duotone.ki-home-2.icon-header{
     color: #fff !important;
+    border-radius: 10px;
 }
 
 span.menu-link.menu-center:hover i.ki-duotone.ki-star.icon-header{
