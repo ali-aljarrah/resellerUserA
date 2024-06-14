@@ -8,7 +8,7 @@
                 <!--begin:Menu link-->
                 <span class="menu-link menu-center">
                     <a class="menu-link" href="/">
-                        <i class="ki-duotone ki-home-2 icon-header">
+                        <i class="ki-duotone ki-home-2 .icon-header">
                              <span class="path1"></span>
                              <span class="path2"></span>
                         </i>
@@ -21,7 +21,7 @@
             <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item py-2">
                 <!--begin:Menu link-->
                 <span class="menu-link menu-center">
-                 <i class="ki-duotone ki-message-text-2 icon-header">
+                 <i class="ki-duotone ki-message-text-2 .icon-header">
                     <span class="path1"></span>
                     <span class="path2"></span>
                     <span class="path3"></span>
@@ -67,7 +67,7 @@
             <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item py-2">
                 <!--begin:Menu link-->
                 <span class="menu-link menu-center">
-                    <i class="ki-duotone ki-eye icon-header">
+                    <i class="ki-duotone ki-eye .icon-header">
                         <span class="path1"></span>
                         <span class="path2"></span>
                         <span class="path3"></span>

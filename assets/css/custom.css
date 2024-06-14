@@ -25,11 +25,11 @@ body::-webkit-scrollbar-thumb {
   box-shadow: var(--bs-app-header-base-box-shadow);
   border-bottom: var(--bs-app-header-base-border-bottom);
 }
-
+/* 
 .icon-header {
   color: #0e41c1 !important;
-  font-size: 26px !important;
-}
+  font-size: 2rem !important;
+} */
 
 .btn-crown {
   font-size: 24px !important;
@@ -79,7 +79,7 @@ span.menu-link.menu-center:hover{
     background-color: #0E41C1;
 }
 
-span.menu-link.menu-center:hover i.ki-duotone.ki-home-2.icon-header{
+/* span.menu-link.menu-center:hover i.ki-duotone.ki-home-2.icon-header{
     color: #fff !important;
     border-radius: 10px;
 }
@@ -90,13 +90,18 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-star.icon-header{
 
 span.menu-link.menu-center:hover i.ki-duotone.ki-message-text-2.icon-header{
     color: #fff !important;
-}
+} */
 
-span.menu-link.menu-center:hover i.ki-duotone.ki-eye.icon-header{
+span.menu-link.menu-center:hover .ki-duotone, .ki-outline, .ki-solid.icon-header{
     color: #fff !important;
+    font-size: 2rem;
 }
-
-span.menu-link.menu-center:hover i.ki-duotone.ki-chart-pie-4.icon-header{
+.ki-duotone, .ki-outline, .ki-solid {
+  line-height: 1;
+  font-size: 2.3rem !important;
+  color: #0e41c1 !important;
+}
+/* span.menu-link.menu-center:hover i.ki-duotone.ki-chart-pie-4.icon-header{
     color: #fff !important;
 }
 
@@ -114,13 +119,16 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-geolocation.icon-header{
 
 span.menu-link.menu-center:hover i.ki-duotone.ki-setting-2.icon-header{
     color: #fff !important;
-}
+} */
 
 /* end sidebar */
 
 
 .bg-blue{
     background-color: #0E41C1;
+}
+.blue{
+  color: #0E41C1 !important;
 }
 .color-black-1 {
   color: #121212 !important;
@@ -134,10 +142,25 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-setting-2.icon-header{
   font-size: 14px;
 }
 
+.fs-16{
+  font-size: 16px;
+}
+
+.fs-18{
+  font-size: 18px;
+}
+
 .fs-20 {
   font-size: 20px;
 }
 
+.fs-25 {
+  font-size: 25px;
+}
+
+.fs-55{
+  font-size: 55px;
+}
 .form-custom-input,
 .form-custom-select {
   background-color: transparent;
@@ -190,3 +213,7 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-setting-2.icon-header{
 .custom-table tr{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
 }
+.card .card-body{
+  padding: 0px !important;
+}
+
