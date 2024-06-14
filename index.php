@@ -84,11 +84,46 @@
 																<!--end::Block-->
 																<!--begin::Chart-->
 																<div id="kt_charts_widget_47 ">
-																	<i class="ki-duotone ki-graph-2">
+																	<!-- <i class="ki-duotone ki-graph-2">
  																		<span class="path1 fs-55"></span>
  																		<span class="path2 fs-55"></span>
  																		<span class="path3 fs-55"></span>
-																	</i>
+																	</i> -->
+																	<svg width="101" height="46" viewBox="0 0 101 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<rect x="92.4414" y="45.5704" width="45.5705" height="8.48315" rx="4.24158" transform="rotate(-90 92.4414 45.5704)" fill="#E9EDF7"/>
+																		<rect x="92.4414" y="45.5704" width="10.8668" height="8.48316" rx="4.24158" transform="rotate(-90 92.4414 45.5704)" fill="url(#paint0_linear_1091_6397)"/>
+																		<rect x="69.3457" y="45.5704" width="45.5705" height="8.48308" rx="4.24154" transform="rotate(-90 69.3457 45.5704)" fill="#E9EDF7"/>
+																		<rect x="69.3457" y="45.5704" width="41.364" height="8.48319" rx="4.24159" transform="rotate(-90 69.3457 45.5704)" fill="url(#paint1_linear_1091_6397)"/>
+																		<rect x="46.252" y="45.5704" width="45.5705" height="8.48315" rx="4.24158" transform="rotate(-90 46.252 45.5704)" fill="#E9EDF7"/>
+																		<rect x="46.252" y="45.5704" width="31.5488" height="8.48315" rx="4.24158" transform="rotate(-90 46.252 45.5704)" fill="url(#paint2_linear_1091_6397)"/>
+																		<rect x="23.1582" y="45.5704" width="45.5705" height="8.48317" rx="4.24158" transform="rotate(-90 23.1582 45.5704)" fill="#E9EDF7"/>
+																		<rect x="23.1582" y="45.5704" width="23.4863" height="8.48317" rx="4.24159" transform="rotate(-90 23.1582 45.5704)" fill="url(#paint3_linear_1091_6397)"/>
+																		<rect x="0.0625" y="45.5704" width="45.5705" height="8.48318" rx="4.24159" transform="rotate(-90 0.0625 45.5704)" fill="#E9EDF7"/>
+																		<rect x="0.0625" y="45.5704" width="37.508" height="8.4832" rx="4.2416" transform="rotate(-90 0.0625 45.5704)" fill="url(#paint4_linear_1091_6397)"/>
+																		<defs>
+																		<linearGradient id="paint0_linear_1091_6397" x1="97.8748" y1="45.5704" x2="97.8748" y2="54.0536" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#0E41C1" stop-opacity="0.870588"/>
+																		<stop offset="1" stop-color="#0047FF" stop-opacity="0.870588"/>
+																		</linearGradient>
+																		<linearGradient id="paint1_linear_1091_6397" x1="90.0277" y1="45.5704" x2="90.0277" y2="54.0536" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#0E41C1" stop-opacity="0.870588"/>
+																		<stop offset="1" stop-color="#0047FF" stop-opacity="0.870588"/>
+																		</linearGradient>
+																		<linearGradient id="paint2_linear_1091_6397" x1="62.0263" y1="45.5704" x2="62.0263" y2="54.0536" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#0E41C1" stop-opacity="0.870588"/>
+																		<stop offset="1" stop-color="#0047FF" stop-opacity="0.870588"/>
+																		</linearGradient>
+																		<linearGradient id="paint3_linear_1091_6397" x1="34.9014" y1="45.5704" x2="34.9014" y2="54.0536" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#0E41C1" stop-opacity="0.870588"/>
+																		<stop offset="1" stop-color="#0047FF" stop-opacity="0.870588"/>
+																		</linearGradient>
+																		<linearGradient id="paint4_linear_1091_6397" x1="18.8165" y1="45.5704" x2="18.8165" y2="54.0536" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#0E41C1" stop-opacity="0.870588"/>
+																		<stop offset="1" stop-color="#0047FF" stop-opacity="0.870588"/>
+																		</linearGradient>
+																		</defs>
+																	</svg>
+
 																</div>
 																<!--end::Chart-->
 															</div>
@@ -350,109 +385,101 @@
 									<!--end::Row-->
 
 									<!--begin::Row-->
-									<div class="row g-5 g-xl-10">
+									<div class="row gx-5 gx-xl-10">
 										<!--begin::Col-->
-										<div class="col-xl-12 mb-xl-10">
-											  <!--begin::Row-->
-											<div class="row gx-5 gx-xl-10">
-											   <!--begin::Col-->
-												<div class="col-xl-4 mb-5 mb-xl-10">
-													<!--begin::Table widget 9-->
-													<div class="card card-flush h-xl-100">
+										<div class="col-xl-4 mb-5 mb-xl-10">
+											<!--begin::Table widget 9-->
+											<div class="card card-flush h-xl-100">
+												<!--begin::Header-->
+												<div class="card-header pt-5">
+													<!--begin::Title-->
+													<h3 class="card-title align-items-start flex-column">
+														<span class="card-label fw-bold text-gray-800">SMS Summary</span>
+													</h3>
+													<!--end::Title-->
+													<!--begin::Toolbar-->
+													<div class="card-toolbar">
+														<a href="#" class="btn btn-sm btn-light">View Report</a>
+													</div>
+													<!--end::Toolbar-->
+												</div>
+												<!--end::Header-->
+												<!--begin::Body-->
+												<div class="card-body py-3">
+													<div class="row">
+														<div class="col-6">
+																<!--begin::Block-->
+															<div class="d-flex flex-column px-3">
+																<!--begin::Total-->
+																<span class="fw-semibold text-white fs-14">All-Time SMS Sent</span>
+																<!--end::Total-->
+																<!--begin::Stats-->
+																<div class="d-flex align-items-center mb-1">
+																	<!--begin::Amount-->
+																	<span class="fs-20 fw-bold text-white me-2">$540.50</span>			
+																</div>
+																<!--end::Stats-->
+															</div>
+															<!--end::Wrapper-->
+														</div>
+														<div class="col-6">
+																<!--begin::Block-->
+															<div class="d-flex flex-column px-3">
+																<!--begin::Total-->
+																<span class="fw-semibold text-white fs-14">All-Time SMS Sent</span>
+																<!--end::Total-->
+																<!--begin::Stats-->
+																<div class="d-flex align-items-center mb-1">
+																	<!--begin::Amount-->
+																	<span class="fs-20 fw-bold text-white me-2">$540.50</span>			
+																</div>
+																<!--end::Stats-->
+															</div>
+															<!--end::Wrapper-->
+														</div>
+													</div>
+												</div>
+												<!--end::Body-->
+											</div>
+											<!--end::Table Widget 9-->
+										</div>
+										<!--end::Col-->
+										<!--begin::Col-->
+										<div class="col-xl-8 mb-5 mb-xl-10">
+											<!--begin::Table widget 10-->
+											<div class="row gx-xl-10 card-flush d-flex">
+												<div class="col-xl-6 mb-5 mb-xl-10">
+													
 														<!--begin::Header-->
 														<div class="card-header pt-5">
 															<!--begin::Title-->
 															<h3 class="card-title align-items-start flex-column">
-																<span class="card-label fw-bold text-gray-800">SMS Summary</span>
+																<span class="card-label fw-bold text-gray-800 fs-25">Upgrade your plan now!</span>
 															</h3>
 															<!--end::Title-->
-															<!--begin::Toolbar-->
-															<div class="card-toolbar">
-																<a href="#" class="btn btn-sm btn-light">View Report</a>
-															</div>
-															<!--end::Toolbar-->
+															<!--begin::Title-->
+															<p class="card-title align-items-center flex-column">
+																<span class="card-label fw-bold text-gray-800 fs-18">
+																	You don’t have to take our word for anything. Here, Try it now.
+																</span>
+															</p>
+															<!--end::Title-->
 														</div>
-														<!--end::Header-->
-														<!--begin::Body-->
-													<div class="card-body py-3">
-														<div class="row">
-															<div class="col-6">
-																	<!--begin::Block-->
-																<div class="d-flex flex-column px-3">
-																	<!--begin::Total-->
-																	<span class="fw-semibold text-white fs-14">All-Time SMS Sent</span>
-																	<!--end::Total-->
-																	<!--begin::Stats-->
-																	<div class="d-flex align-items-center mb-1">
-																		<!--begin::Amount-->
-																		<span class="fs-20 fw-bold text-white me-2">$540.50</span>			
-																    </div>
-																	<!--end::Stats-->
-																</div>
-																<!--end::Wrapper-->
-															</div>
-															<div class="col-6">
-																	<!--begin::Block-->
-																<div class="d-flex flex-column px-3">
-																	<!--begin::Total-->
-																	<span class="fw-semibold text-white fs-14">All-Time SMS Sent</span>
-																	<!--end::Total-->
-																	<!--begin::Stats-->
-																	<div class="d-flex align-items-center mb-1">
-																		<!--begin::Amount-->
-																		<span class="fs-20 fw-bold text-white me-2">$540.50</span>			
-																    </div>
-																	<!--end::Stats-->
-																</div>
-																<!--end::Wrapper-->
-															</div>
-														</div>
-													</div>
-														<!--end::Body-->
-													</div>
-													<!--end::Table Widget 9-->
+													
 												</div>
-												<!--end::Col-->
-												<!--begin::Col-->
-												<div class="col-xl-8 mb-5 mb-xl-10">
-													<!--begin::Table widget 10-->
-													<div class="row gx-xl-10 card-flush d-flex">
-														<div class="col-xl-6 mb-5 mb-xl-10">
-															
-																<!--begin::Header-->
-															    <div class="card-header pt-5">
-																	<!--begin::Title-->
-																	<h3 class="card-title align-items-start flex-column">
-																		<span class="card-label fw-bold text-gray-800 fs-25">Upgrade your plan now!</span>
-																	</h3>
-																	<!--end::Title-->
-																	<!--begin::Title-->
-																	<p class="card-title align-items-center flex-column">
-																		<span class="card-label fw-bold text-gray-800 fs-18">
-																			You don’t have to take our word for anything. Here, Try it now.
-																		</span>
-                                                        		    </p>
-																	<!--end::Title-->
-															    </div>
-														    
-													    </div>
-														<div class="col-xl-6 mb-5 mb-xl-10">		
-														
-															    <div class="img">
-																	<img src="assets/img/home/Image.webp" height="250" alt="" />
-																</div>
-															
-													    </div>
-												    </div>
-													<!--end::Table Widget 10-->
-											    </div>
-											   <!--end::Col-->
-									           <!--end::Row-->
-									        </div>
-										   <!--end::Col-->
-									    </div>
-									    <!--end::Row-->
-								    </div>
+												<div class="col-xl-6 mb-5 mb-xl-10">		
+												
+														<div class="img">
+															<img src="assets/img/home/Image.webp" height="250" alt="" />
+														</div>
+													
+												</div>
+											</div>
+											<!--end::Table Widget 10-->
+										</div>
+										<!--end::Col-->
+									</div>
+									<!--end::Row-->
 								<!--end::Content container-->
 							</div>
 							<!--end::Content-->
