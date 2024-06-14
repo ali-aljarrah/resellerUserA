@@ -4,7 +4,7 @@
         <!--begin::Menu-->
         <div id="kt_aside_menu" class="menu menu-rounded menu-column menu-title-gray-600 menu-state-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-semibold fs-6" data-kt-menu="true">
             <!--begin:Menu item-->
-            <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item here show py-2">
+            <div data-kt-menu-placement="right-start" class="menu-item here show py-2">
                 <!--begin:Menu link-->
                 <span class="menu-link menu-center">
                     <a class="menu-link" href="/">

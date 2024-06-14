@@ -34,35 +34,13 @@
 									<!--begin::Row-->
 									<div class="row g-5 g-xl-10">
 										<!--begin::Col-->
-										<div class="col-xl-12 mb-xl-10">
+										<div class="col-xl-12">
 											<!--begin::Row-->
 											<div class="row g-2 g-xl-10">
 												<!--begin::Col-->
 												<div class="col-lg-4">
 													<!--begin::Chart Widget 47-->
-													<div class="card card-flush" style="box-shadow: 0px 14px 40px 0px rgba(24, 85, 243, 0.20);">
-														<!--begin::Header-->
-														<!-- <div class="card-header align-items-center"> -->
-															<!--begin::Symbol-->
-															<!-- <div class="symbol symbol-50px me-4">
-																<div class="symbol-label bg-transparent rounded-lg" style="border: 1px dashed rgba(255, 255, 255, 0.20)">
-																	<i class="ki-outline ki-handcart text-white fs-1"></i>
-																</div>
-															</div> -->
-															<!--end::Symbol-->
-															<!--begin::Info-->
-															<!-- <div class="card-title flex-column flex-grow-1">
-																<span class="card-label fw-bold fs-3 text-white">New Orders</span>
-																<span class="text-white opacity-50 fw-semibold fs-base">Recent customer purchase trends</span>
-															</div> -->
-															<!--end::Info-->
-															<!--begin::Toolbar-->
-															<!-- <div class="card-toolbar">
-																<a href="#" class="btn btn-sm btn-text-white bg-white bg-opacity-10" style="border: 1px solid rgba(255, 255, 255, 0.20)">Today</a>
-															</div> -->
-															<!--end::Toolbar-->
-														<!-- </div> -->
-														<!--end::Header-->
+													<div class="card card-flush shadow-xs">
 														<!--begin::Card body-->
 														<div class="card-body d-flex align-items-center">
 															<!--begin::Wrapper-->
@@ -84,11 +62,6 @@
 																<!--end::Block-->
 																<!--begin::Chart-->
 																<div id="kt_charts_widget_47 ">
-																	<!-- <i class="ki-duotone ki-graph-2">
- 																		<span class="path1 fs-55"></span>
- 																		<span class="path2 fs-55"></span>
- 																		<span class="path3 fs-55"></span>
-																	</i> -->
 																	<svg width="101" height="46" viewBox="0 0 101 46" fill="none" xmlns="http://www.w3.org/2000/svg">
 																		<rect x="92.4414" y="45.5704" width="45.5705" height="8.48315" rx="4.24158" transform="rotate(-90 92.4414 45.5704)" fill="#E9EDF7"/>
 																		<rect x="92.4414" y="45.5704" width="10.8668" height="8.48316" rx="4.24158" transform="rotate(-90 92.4414 45.5704)" fill="url(#paint0_linear_1091_6397)"/>
@@ -123,7 +96,6 @@
 																		</linearGradient>
 																		</defs>
 																	</svg>
-
 																</div>
 																<!--end::Chart-->
 															</div>
@@ -138,7 +110,7 @@
 												<div class="col-lg-4 mb-xl-10">
 													<!--begin::Chart Widget 47-->
 													<!--begin::Chart Widget 48-->
-													<div class="card card-flush">
+													<div class="card card-flush shadow-xs">
 														<div class="card-body d-flex align-items-start">
 															<!--begin::Wrapper-->
 															<div class="d-flex flex-row-fluid p-4 align-items-center">
@@ -180,7 +152,7 @@
 												<div class="col-lg-4 mb-xl-10">
 													<!--begin::Chart Widget 47-->
 													<!--begin::Chart Widget 48-->
-													<div class="card card-flush bg-blue">
+													<div class="card card-flush shadow-xs bg-blue">
 														<div class="card-body d-flex align-items-start">
 															<!--begin::Wrapper-->
 															<div class="d-flex flex-stack flex-row-fluid p-4">
@@ -221,11 +193,11 @@
 											</div>
 											<!--end::Row-->
 											<!--begin::Row-->
-											<div class="row gx-5 gx-xl-10">
+											<div class="row g-2 gx-xl-10">
 												<!--begin::Col-->
 												<div class="col-xl-8 mb-5 mb-xl-10">
 													<!--begin::Table widget 9-->
-													<div class="card card-flush h-xl-100">
+													<div class="card card-flush shadow-xs h-xl-100">
 														<!--begin::Header-->
 														<div class="card-header pt-5">
 															<!--begin::Title-->
@@ -283,7 +255,7 @@
 												<!--begin::Col-->
 												<div class="col-xl-4 mb-5 mb-xl-10">
 													<!--begin::Table widget 10-->
-													<div class="card card-flush h-xl-100">
+													<div class="card card-flush shadow-xs h-xl-100">
 														<!--begin::Header-->
 													<div class="card-header pt-5">
 															<!--begin::Title-->
@@ -385,11 +357,11 @@
 									<!--end::Row-->
 
 									<!--begin::Row-->
-									<div class="row gx-5 gx-xl-10">
+									<div class="row g-2 gx-xl-10">
 										<!--begin::Col-->
 										<div class="col-xl-4 mb-5 mb-xl-10">
 											<!--begin::Table widget 9-->
-											<div class="card card-flush h-xl-100">
+											<div class="card card-flush shadow-xs h-xl-100">
 												<!--begin::Header-->
 												<div class="card-header pt-5">
 													<!--begin::Title-->
@@ -447,32 +419,26 @@
 										<!--begin::Col-->
 										<div class="col-xl-8 mb-5 mb-xl-10">
 											<!--begin::Table widget 10-->
-											<div class="row gx-xl-10 card-flush d-flex">
-												<div class="col-xl-6 mb-5 mb-xl-10">
-													
+											<div class="card card-flush shadow-xs">
+												<div class="row gx-xl-10">
+													<div class="col-xl-6 mb-5 mb-xl-10">
 														<!--begin::Header-->
-														<div class="card-header pt-5">
+														<div class="p-5">
 															<!--begin::Title-->
-															<h3 class="card-title align-items-start flex-column">
-																<span class="card-label fw-bold text-gray-800 fs-25">Upgrade your plan now!</span>
+															<h3 class="card-label fw-bold text-gray-800 fs-25">
+															Upgrade your plan now!
 															</h3>
 															<!--end::Title-->
-															<!--begin::Title-->
-															<p class="card-title align-items-center flex-column">
-																<span class="card-label fw-bold text-gray-800 fs-18">
-																	You don’t have to take our word for anything. Here, Try it now.
-																</span>
+															<p class="card-label fw-bold text-gray-800 fs-18">
+															You don’t have to take our word for anything. Here, Try it now.
 															</p>
-															<!--end::Title-->
 														</div>
-													
-												</div>
-												<div class="col-xl-6 mb-5 mb-xl-10">		
-												
-														<div class="img">
+													</div>
+													<div class="col-xl-6 mb-5 mb-xl-10">
+														<div class="text-center text-xl-center">
 															<img src="assets/img/home/Image.webp" height="250" alt="" />
 														</div>
-													
+													</div>
 												</div>
 											</div>
 											<!--end::Table Widget 10-->
