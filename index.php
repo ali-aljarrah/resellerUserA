@@ -15,7 +15,6 @@
 			<!--begin::Page-->
 			<div class="app-page flex-column flex-column-fluid" id="kt_app_page">
 				<!--begin::Header-->
-				 
 				 <?php $parentPage = 'Home'; $childPage = 'Dashboard'; include 'include/header.php'?>
 				<!--end::Header-->
 				<!--begin::Wrapper-->
@@ -42,7 +41,7 @@
 													<!--begin::Chart Widget 47-->
 													<div class="card card-flush shadow-xs">
 														<!--begin::Card body-->
-														<div class="card-body d-flex align-items-center">
+														<div class="d-flex align-items-center">
 															<!--begin::Wrapper-->
 															<div class="d-flex flex-stack flex-row-fluid p-4">
 																<!--begin::Block-->
@@ -56,8 +55,7 @@
 																		<span class="fs-20 fw-bold me-2 text-gray-800">$682.5</span>
 																		<!--end::Amount-->
 																	</div>
-																	<!--end::Stats-->
-																	
+																	<!--end::Stats-->																	
 																</div>
 																<!--end::Block-->
 																<!--begin::Chart-->
@@ -111,10 +109,10 @@
 													<!--begin::Chart Widget 47-->
 													<!--begin::Chart Widget 48-->
 													<div class="card card-flush shadow-xs">
-														<div class="card-body d-flex align-items-start">
+														<div class="d-flex align-items-start">
 															<!--begin::Wrapper-->
 															<div class="d-flex flex-row-fluid p-4 align-items-center">
-																	<!--begin::Chart-->
+																<!--begin::Chart-->
 																<div id="kt_charts_widget_48">
 																	<i class="ki-duotone ki-graph">
  																		<span class="path1 fs-55"></span>
@@ -123,7 +121,7 @@
  																		<span class="path4 fs-55"></span>
 																	</i>
 																</div>
-																		<!--end::Chart-->
+																<!--end::Chart-->
 																<!--begin::Block-->
 																<div class="d-flex flex-column px-3">
 																	<!--begin::Total-->
@@ -135,11 +133,9 @@
 																		<span class="fs-20 fw-bold text-gray-800 me-2">$350.40</span>
 																		<!--end::Amount-->							
 																	</div>
-																	<!--end::Stats-->
-																	
+																	<!--end::Stats-->																
 																</div>
-																<!--end::Wrapper-->
-																
+																<!--end::Wrapper-->															
 															</div>
 															<!--end::Wrapper-->
 														</div>
@@ -153,7 +149,7 @@
 													<!--begin::Chart Widget 47-->
 													<!--begin::Chart Widget 48-->
 													<div class="card card-flush shadow-xs bg-blue">
-														<div class="card-body d-flex align-items-start">
+														<div class="d-flex align-items-start">
 															<!--begin::Wrapper-->
 															<div class="d-flex flex-stack flex-row-fluid p-4">
 																<!--begin::Block-->
@@ -207,49 +203,64 @@
 															<!--end::Title-->
 															<!--begin::Toolbar-->
 															<div class="card-toolbar">
-																<a href="#" class="btn btn-sm btn-light">monday</a>
+																<a href="#" class="btn soft-blue">Monthly
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<path d="M17 10L12 15L7 10L17 10Z" fill="#A3AED0"/>
+																	</svg>
+																</a>
 															</div>
 															<!--end::Toolbar-->
 														</div>
 														<!--end::Header-->
-														<!--begin::Body-->
-													<div class="card-body py-3">
-														<div class="row">
-															<div class="col-6">
+														<div class="row d-flex justify-content-center mb-5">
+															<div class="col-lg-4 d-flex justify-content-start shadow-xs rounded-2 p-3 me-4">
 																	<!--begin::Block-->
 																<div class="d-flex flex-column px-3">
 																	<!--begin::Total-->
-																	<span class="fw-semibold text-white fs-14">All-Time SMS Sent</span>
+																	<span class="fw-semibold fs-12 gray">Spending</span>
 																	<!--end::Total-->
 																	<!--begin::Stats-->
 																	<div class="d-flex align-items-center mb-1">
 																		<!--begin::Amount-->
-																		<span class="fs-20 fw-bold text-white me-2">$540.50</span>			
+																		<span class="fs-18 fw-bold me-2">43.50%</span>	
+																		<span class="badge badge-light-success fs-12 p-2">+2.45%</span>		
 																    </div>
 																	<!--end::Stats-->
 																</div>
 																<!--end::Wrapper-->
 															</div>
-															<div class="col-6">
+															<div class="col-lg-4 d-flex justify-content-start shadow-xs rounded-2 p-3 ms-4">
 																	<!--begin::Block-->
 																<div class="d-flex flex-column px-3">
 																	<!--begin::Total-->
-																	<span class="fw-semibold text-white fs-14">All-Time SMS Sent</span>
+																	<span class="fw-semibold fs-12 gray">Remaining</span>
 																	<!--end::Total-->
 																	<!--begin::Stats-->
 																	<div class="d-flex align-items-center mb-1">
 																		<!--begin::Amount-->
-																		<span class="fs-20 fw-bold text-white me-2">$540.50</span>			
+																		<span class="fs-18 fw-bold me-2">$52,422</span>		
+																		<span class="badge badge-light-danger fs-12 p-2">-4.75%</span>	
 																    </div>
 																	<!--end::Stats-->
 																</div>
 																<!--end::Wrapper-->
 															</div>
+
+													    </div>
+														<div class="row mt-5 pt-5">
+															<svg width="771" height="141" viewBox="0 0 771 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M31.6097 81.6394C20.1441 73.6174 5.98578 74.0185 0.339844 75.2218V140.599H770.359V26.2871C754.724 27.7578 730.872 32.641 690.882 26.2871C650.492 19.8697 647.886 29.095 638.765 41.93C630.487 53.58 610.101 43.5345 569.711 56.7706C537.239 67.4119 522.285 23.8807 514.989 12.6497C509.777 4.62776 490.234 2.62245 485.022 12.6497C479.81 26.2871 476.423 52.9201 473.296 56.7706C468.41 62.7873 458.105 63.5145 449.844 61.1829C434.209 56.7706 436.814 41.2093 436.814 30.2983C436.814 19.8697 416.671 19.8697 413.362 26.2871C400.333 51.5565 399.03 90.0369 376.881 90.4631C360.203 90.784 354.731 80.8367 345.611 71.2111C342.19 67.6005 329.976 65.1144 314.341 71.2111C294.797 78.832 288.283 72.0133 286.98 69.2047C285.677 66.396 279.303 51.5982 277.86 22.2775C276.557 -4.19502 244.95 -2.99198 242.681 7.83749C234.864 45.1399 244.077 95.6772 207.502 95.6772C186.656 95.6772 186.656 82.4109 186.656 71.6113C186.656 62.7871 169.718 61.9849 164.506 69.2047C159.295 76.4245 155.386 84.8484 138.448 84.8484C118.732 84.8484 112.39 74.419 112.39 66.397C112.39 58.375 109.771 48.7748 99.3609 48.3475C79.8173 47.5453 82.4231 76.0234 75.9086 84.8484C70.7437 91.8451 45.9417 91.6668 31.6097 81.6394Z" fill="url(#paint0_linear_1097_1478)" fill-opacity="0.3"/>
+																<defs>
+																<linearGradient id="paint0_linear_1097_1478" x1="385.35" y1="-193.809" x2="385.35" y2="140.599" gradientUnits="userSpaceOnUse">
+																<stop stop-color="#0E41C1" stop-opacity="0.870588"/>
+																<stop offset="1" stop-color="#0E41C1" stop-opacity="0.870588"/>
+																</linearGradient>
+																</defs>
+															</svg>
 														</div>
-													</div>
-														<!--end::Body-->
-													</div>
+												    </div>
 													<!--end::Table Widget 9-->
+													
 												</div>
 												<!--end::Col-->
 												<!--begin::Col-->
@@ -349,69 +360,99 @@
 												</div>
 												<!--end::Col-->
 											</div>
-											<!--end::Row-->
-										
+											<!--end::Row-->										
 										</div>
 										<!--end::Col-->
 									</div>
 									<!--end::Row-->
-
 									<!--begin::Row-->
 									<div class="row g-2 gx-xl-10">
 										<!--begin::Col-->
 										<div class="col-xl-4 mb-5 mb-xl-10">
 											<!--begin::Table widget 9-->
-											<div class="card card-flush shadow-xs h-xl-100">
+											<div class="card card-flush shadow-xs">
 												<!--begin::Header-->
 												<div class="card-header pt-5">
 													<!--begin::Title-->
 													<h3 class="card-title align-items-start flex-column">
 														<span class="card-label fw-bold text-gray-800">SMS Summary</span>
+														<p class="gray fs-12 pt-1">From 1-6 Dec, 2020</p>
 													</h3>
+													
 													<!--end::Title-->
-													<!--begin::Toolbar-->
+													<!--begin::button-->
 													<div class="card-toolbar">
-														<a href="#" class="btn btn-sm btn-light">View Report</a>
+														<a href="#" class="btn btn-primary btn-grad">View Report</a>
 													</div>
-													<!--end::Toolbar-->
+													<!--end::button-->
 												</div>
 												<!--end::Header-->
-												<!--begin::Body-->
-												<div class="card-body py-3">
-													<div class="row">
-														<div class="col-6">
-																<!--begin::Block-->
-															<div class="d-flex flex-column px-3">
-																<!--begin::Total-->
-																<span class="fw-semibold text-white fs-14">All-Time SMS Sent</span>
-																<!--end::Total-->
-																<!--begin::Stats-->
-																<div class="d-flex align-items-center mb-1">
-																	<!--begin::Amount-->
-																	<span class="fs-20 fw-bold text-white me-2">$540.50</span>			
-																</div>
-																<!--end::Stats-->
-															</div>
-															<!--end::Wrapper-->
-														</div>
-														<div class="col-6">
-																<!--begin::Block-->
-															<div class="d-flex flex-column px-3">
-																<!--begin::Total-->
-																<span class="fw-semibold text-white fs-14">All-Time SMS Sent</span>
-																<!--end::Total-->
-																<!--begin::Stats-->
-																<div class="d-flex align-items-center mb-1">
-																	<!--begin::Amount-->
-																	<span class="fs-20 fw-bold text-white me-2">$540.50</span>			
-																</div>
-																<!--end::Stats-->
-															</div>
-															<!--end::Wrapper-->
-														</div>
-													</div>
+												<div class="d-flex justify-content-center pt-5 mt-5">
+														<svg width="153" height="148" viewBox="0 0 153 148" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<ellipse cx="76.4999" cy="74" rx="64.332" ry="62" stroke="#FFC700" stroke-width="24"/>
+															<path d="M76.4991 12C112.029 12 140.831 39.7583 140.831 74C140.831 108.242 112.029 136 76.4991 136C47.8464 136 23.5688 117.947 15.2441 93" stroke="#DFDFDF" stroke-width="24"/>
+															<path d="M76.5 12C112.03 12 140.832 39.7583 140.832 74C140.832 94.2841 130.725 112.293 115.099 123.605" stroke="url(#paint0_linear_943_46554)" stroke-width="24"/>
+															<defs>
+															<linearGradient id="paint0_linear_943_46554" x1="108.666" y1="12" x2="108.666" y2="123.605" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#0E41C1" stop-opacity="0.870588"/>
+															<stop offset="1" stop-color="#0047FF" stop-opacity="0.870588"/>
+															</linearGradient>
+															</defs>
+														</svg>
 												</div>
-												<!--end::Body-->
+												<div class="row justify-content-center p-3 mt-5 pb-5">
+															<div class="col-lg-4 d-flex justify-content-center pt-5">
+																<h6 class=" align-items-start flex-column">
+																	<span class=" fw-bold text-gray-800">
+																		<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<ellipse cx="5.5" cy="4.5" rx="5" ry="4.5" fill="#DFDFDF"/>
+																			<defs>
+																			<linearGradient id="paint0_linear_943_46551" x1="5.5" y1="0" x2="5.5" y2="9" gradientUnits="userSpaceOnUse">
+																			<stop stop-color="#0E41C1" stop-opacity="0.870588"/>
+																			<stop offset="1" stop-color="#0047FF" stop-opacity="0.870588"/>
+																			</linearGradient>
+																			</defs>
+																		</svg>
+																		Undelivered
+																	</span>
+																	<span class="gray ps-5 pt-2">40%</span>
+																</h6>
+															</div>
+															<div class="col-lg-4 d-flex justify-content-center pt-5">
+																<h6 class=" align-items-start flex-column d-flex">
+																	<span class=" fw-bold text-gray-800">
+																	<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<ellipse cx="5.5" cy="4.5" rx="5" ry="4.5" fill="#FFC700"/>
+																		<defs>
+																		<linearGradient id="paint0_linear_943_46551" x1="5.5" y1="0" x2="5.5" y2="9" gradientUnits="userSpaceOnUse">
+																		<stop stop-color="#0E41C1" stop-opacity="0.870588"/>
+																		<stop offset="1" stop-color="#0047FF" stop-opacity="0.870588"/>
+																		</linearGradient>
+																		</defs>
+																	</svg>
+																		Pending
+																	</span>
+																	<span class="gray ps-5">32%</span>
+																</h6>
+															</div>
+															<div class="col-lg-4 d-flex justify-content-center pt-5">
+																<h6 class="align-items-start flex-column">
+																	<span class=" fw-bold text-gray-800">
+																	    <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<ellipse cx="5.5" cy="4.5" rx="5" ry="4.5" fill="url(#paint0_linear_943_46551)"/>
+																				<defs>
+																				<linearGradient id="paint0_linear_943_46551" x1="5.5" y1="0" x2="5.5" y2="9" gradientUnits="userSpaceOnUse">
+																				<stop stop-color="#0E41C1" stop-opacity="0.870588"/>
+																				<stop offset="1" stop-color="#0047FF" stop-opacity="0.870588"/>
+																				</linearGradient>
+																				</defs>
+																		</svg>
+																		Delivered
+																	</span>
+																	<span class="gray ps-5">28%</span>
+																</h6>
+															</div>
+												</div>
 											</div>
 											<!--end::Table Widget 9-->
 										</div>
@@ -420,22 +461,27 @@
 										<div class="col-xl-8 mb-5 mb-xl-10">
 											<!--begin::Table widget 10-->
 											<div class="card card-flush shadow-xs">
-												<div class="row gx-xl-10">
-													<div class="col-xl-6 mb-5 mb-xl-10">
+												<div class="row gx-xl-10 p-5">
+													<div class="col-xl-4 mb-5 ">
 														<!--begin::Header-->
 														<div class="p-5">
 															<!--begin::Title-->
-															<h3 class="card-label fw-bold text-gray-800 fs-25">
-															Upgrade your plan now!
-															</h3>
+															<h2 class=" fw-bold text-gray-800">
+																Upgrade your plan now!
+															</h2>
 															<!--end::Title-->
-															<p class="card-label fw-bold text-gray-800 fs-18">
-															You don’t have to take our word for anything. Here, Try it now.
+															<p class="fs-14 mt-5 gray pt-2">
+																You don’t have to take our word for anything. Here, Try it now.
 															</p>
 														</div>
+															<!--begin::button-->
+															<div class="">
+																<a href="#" class="btn btn-primary btn-grad ">Upgrade now</a>
+															</div>
+															<!--end::button-->
 													</div>
-													<div class="col-xl-6 mb-5 mb-xl-10">
-														<div class="text-center text-xl-center">
+													<div class="col-xl-7 mb-5 offset-1">
+														<div class="text-center text-xl-center d-flex justify-content-end">
 															<img src="assets/img/home/Image.webp" height="250" alt="" />
 														</div>
 													</div>
@@ -462,7 +508,6 @@
 			<!--end::Page-->
 		</div>
 		<!--end::App-->
-		
 		<?php include './include/footer-links.php'; ?>
 	</body>
 	<!--end::Body-->

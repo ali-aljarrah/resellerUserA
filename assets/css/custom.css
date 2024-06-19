@@ -92,6 +92,10 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-message-text-2.icon-header{
     color: #fff !important;
 } */
 
+span.menu-link.menu-center:hover .svg.sidebar-svg{
+  color: #fff !important;
+  font-size: 2rem;
+}
 span.menu-link.menu-center:hover .ki-duotone, .ki-outline, .ki-solid.icon-header{
     color: #fff !important;
     font-size: 2rem;
@@ -213,4 +217,9 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-setting-2.icon-header{
 .custom-table tr{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
 }
-
+ .gray{
+ color: gray;
+ }
+.soft-blue{
+  color: #A3AED0;
+}
