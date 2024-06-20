@@ -78,8 +78,8 @@ div#kt_aside_menu_wrapper {
   overflow-y: hidden !important;
 }
 
-span.menu-link.menu-center, span.menu-link.menu-center:hover svg path {
-  transition: all .3s ease-in-out;
+span.menu-link, span.menu-link.menu-center:hover svg path {
+  transition: all .3s ease-in-out !important;
 }
 
 span.menu-link.menu-center:hover {
