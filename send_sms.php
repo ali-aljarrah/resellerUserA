@@ -1,6 +1,6 @@
 <?php include './include/head.php'; ?>
 
-<title>Metronic - The World's #1 Selling Bootstrap Admin Template by KeenThemes</title>
+<title>Send Single SMS</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -43,7 +43,7 @@
                                                 Send Single SMS
                                                 </h3>
                                                 <!--end::Title-->
-                                                <p class="text-gray-500 mt-1 fs-14">
+                                                <p class="color-neutral-grey mt-1 fs-14">
                                                 Easily send messages to multiple numbers by adding commas between them. You can send to a maximum of 30 numbers each time. Happy texting!
                                                 </p>
                                             </div>
@@ -138,16 +138,46 @@
                                                     <table id="recent-sms-table" class="table custom-table">
                                                         <thead>
                                                             <tr>
-                                                                <th>Number</th>
-                                                                <th>Sent at</th>
-                                                                <th>Status</th>
+                                                                <th class="white-color fs-16 fw-600">Number</th>
+                                                                <th class="white-color fs-16 fw-600">Sent at</th>
+                                                                <th class="white-color fs-16 fw-600">Status</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
                                                             <tr>
-                                                                <td>+600138927737</td>
-                                                                <td>21 August 2023, 11:23 AM</td>
-                                                                <td>Delivered</td>
+                                                                <td class="color-black-1 fs-16">+600138927737</td>
+                                                                <td class="color-black-1 fs-16">21 August 2023, 11:23 AM</td>
+                                                                <td class="text-success fs-16">Delivered</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="color-black-1 fs-16">+600138927737</td>
+                                                                <td class="color-black-1 fs-16">21 August 2023, 11:23 AM</td>
+                                                                <td class="text-success fs-16">Delivered</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="color-black-1 fs-16">+600138927737</td>
+                                                                <td class="color-black-1 fs-16">21 August 2023, 11:23 AM</td>
+                                                                <td class="text-success fs-16">Delivered</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="color-black-1 fs-16">+600138927737</td>
+                                                                <td class="color-black-1 fs-16">21 August 2023, 11:23 AM</td>
+                                                                <td class="text-success fs-16">Delivered</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="color-black-1 fs-16">+600138927737</td>
+                                                                <td class="color-black-1 fs-16">21 August 2023, 11:23 AM</td>
+                                                                <td class="text-success fs-16">Delivered</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="color-black-1 fs-16">+600138927737</td>
+                                                                <td class="color-black-1 fs-16">21 August 2023, 11:23 AM</td>
+                                                                <td class="text-success fs-16">Delivered</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="color-black-1 fs-16">+600138927737</td>
+                                                                <td class="color-black-1 fs-16">21 August 2023, 11:23 AM</td>
+                                                                <td class="text-success fs-16">Delivered</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
