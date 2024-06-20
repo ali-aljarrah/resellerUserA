@@ -325,9 +325,9 @@
 													</div>
 													<!--end::Table-->
 													<!--begin::footer-->
-													<div class="card-footer pt-5 pe-4 d-flex justify-content-end">
+													<div class="card-footer pt-5 d-flex justify-content-end mb-0">
 															<!--begin::Title-->
-															<h3 class="card-title align-items-start flex-column">
+															<h3 class="card-title align-items-start flex-column mb-0">
 																<span class="card-label fw-bold d-flex align-items-center text-gray-800 fs-16 blue">View all
 																  <i class="ki-duotone ki-arrow-right">
 																	 <span class="path1 fs-25 blue"></span>
@@ -365,25 +365,15 @@
 													<!--end::Title-->
 													<!--begin::button-->
 													<div class="card-toolbar">
-														<a href="#" class="btn btn-primary btn-grad">View Report</a>
+														<a href="#" class="soft-blue fs-14 fw-bold pb-5 mb-5">View Report</a>
 													</div>
 													<!--end::button-->
 												</div>
 												<!--end::Header-->
-												<div class="d-flex justify-content-center pt-5 mt-5">
-														<svg width="153" height="148" viewBox="0 0 153 148" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<ellipse cx="76.4999" cy="74" rx="64.332" ry="62" stroke="#FFC700" stroke-width="24"/>
-															<path d="M76.4991 12C112.029 12 140.831 39.7583 140.831 74C140.831 108.242 112.029 136 76.4991 136C47.8464 136 23.5688 117.947 15.2441 93" stroke="#DFDFDF" stroke-width="24"/>
-															<path d="M76.5 12C112.03 12 140.832 39.7583 140.832 74C140.832 94.2841 130.725 112.293 115.099 123.605" stroke="url(#paint0_linear_943_46554)" stroke-width="24"/>
-															<defs>
-															<linearGradient id="paint0_linear_943_46554" x1="108.666" y1="12" x2="108.666" y2="123.605" gradientUnits="userSpaceOnUse">
-															<stop stop-color="#0E41C1" stop-opacity="0.870588"/>
-															<stop offset="1" stop-color="#0047FF" stop-opacity="0.870588"/>
-															</linearGradient>
-															</defs>
-														</svg>
+												<div class="d-flex justify-content-center pt-1 mt-1">
+													<canvas id="kt_chartjs_3" class="mh-300px mb-4"></canvas>
 												</div>
-												<div class="row justify-content-center p-3 mt-5 pb-5">
+												<!-- <div class="row justify-content-center p-3 mt-5 pb-5">
 															<div class="col-lg-4 d-flex justify-content-center pt-5">
 																<h6 class=" align-items-start flex-column">
 																	<span class=" fw-bold text-gray-800">
@@ -435,7 +425,7 @@
 																	<span class="gray ps-5">28%</span>
 																</h6>
 															</div>
-												</div>
+												</div> -->
 											</div>
 											<!--end::Table Widget 9-->
 										</div>
@@ -496,9 +486,11 @@
 		<!--end::App-->
 		<?php include './include/footer-links.php'; ?>
 
+		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css"/>
+		<script src="assets/plugins/global/plugins.bundle.js"></script>
+
 		<script>
 			var element = document.getElementById('kt_apexcharts_3');
-
 			var height = parseInt(KTUtil.css(element, 'height'));
 			var labelColor = KTUtil.getCssVariableValue('--kt-gray-500');
 			var borderColor = KTUtil.getCssVariableValue('--kt-gray-200');
@@ -629,6 +621,55 @@
 
 			var chart = new ApexCharts(element, options);
 			chart.render();
+
+
+
+			var ctx = document.getElementById('kt_chartjs_3');
+
+			// Define colors
+			var primaryColor = KTUtil.getCssVariableValue('--kt-primary');
+			var dangerColor = KTUtil.getCssVariableValue('--kt-danger');
+			var successColor = KTUtil.getCssVariableValue('--kt-success');
+			var warningColor = KTUtil.getCssVariableValue('--kt-warning');
+			var infoColor = KTUtil.getCssVariableValue('--kt-info');
+
+			// Define fonts
+			var fontFamily = KTUtil.getCssVariableValue('--bs-font-sans-serif');
+
+			// Chart labels
+			const labels = ['Undelivered', 'Pending', 'Delivered'];
+
+			// Chart data
+			const data = {
+				labels: labels,
+				datasets: [{
+					data: [40, 32, 28]
+			}]
+			};
+
+			// Chart config
+			const config = {
+				type: 'pie',
+				data: data,
+				options: {
+					plugins: {
+						title: {
+							display: false,
+						}
+					},
+					responsive: true,
+				},
+				defaults:{
+					global: {
+						defaultFont: fontFamily
+					}
+				}
+			};
+
+			// Init ChartJS -- for more info, please visit: https://www.chartjs.org/docs/latest/
+			var myChart = new Chart(ctx, config);
+
+
 		</script>
 	</body>
 	<!--end::Body-->
