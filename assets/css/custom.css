@@ -61,8 +61,11 @@ body::-webkit-scrollbar-thumb {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
-  transform: rotate(5deg) scale(1.02);
   transition: all 0.3s ease-in-out;
+}
+
+.btn-grad.rotate-scale-hover:hover {
+  transform: rotate(5deg) scale(1.02);
 }
 /* end header */
 

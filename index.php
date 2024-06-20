@@ -201,15 +201,6 @@
 																<span class="card-label fw-bold text-gray-800">SMS Balance</span>
 															</h3>
 															<!--end::Title-->
-															<!--begin::Toolbar-->
-															<div class="card-toolbar">
-																<a href="#" class="btn soft-blue">Monthly
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M17 10L12 15L7 10L17 10Z" fill="#A3AED0"/>
-																	</svg>
-																</a>
-															</div>
-															<!--end::Toolbar-->
 														</div>
 														<!--end::Header-->
 														<div class="row d-flex justify-content-center mb-5">
@@ -247,16 +238,8 @@
 															</div>
 
 													    </div>
-														<div class="row mt-5 pt-5">
-															<svg width="771" height="141" viewBox="0 0 771 141" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M31.6097 81.6394C20.1441 73.6174 5.98578 74.0185 0.339844 75.2218V140.599H770.359V26.2871C754.724 27.7578 730.872 32.641 690.882 26.2871C650.492 19.8697 647.886 29.095 638.765 41.93C630.487 53.58 610.101 43.5345 569.711 56.7706C537.239 67.4119 522.285 23.8807 514.989 12.6497C509.777 4.62776 490.234 2.62245 485.022 12.6497C479.81 26.2871 476.423 52.9201 473.296 56.7706C468.41 62.7873 458.105 63.5145 449.844 61.1829C434.209 56.7706 436.814 41.2093 436.814 30.2983C436.814 19.8697 416.671 19.8697 413.362 26.2871C400.333 51.5565 399.03 90.0369 376.881 90.4631C360.203 90.784 354.731 80.8367 345.611 71.2111C342.19 67.6005 329.976 65.1144 314.341 71.2111C294.797 78.832 288.283 72.0133 286.98 69.2047C285.677 66.396 279.303 51.5982 277.86 22.2775C276.557 -4.19502 244.95 -2.99198 242.681 7.83749C234.864 45.1399 244.077 95.6772 207.502 95.6772C186.656 95.6772 186.656 82.4109 186.656 71.6113C186.656 62.7871 169.718 61.9849 164.506 69.2047C159.295 76.4245 155.386 84.8484 138.448 84.8484C118.732 84.8484 112.39 74.419 112.39 66.397C112.39 58.375 109.771 48.7748 99.3609 48.3475C79.8173 47.5453 82.4231 76.0234 75.9086 84.8484C70.7437 91.8451 45.9417 91.6668 31.6097 81.6394Z" fill="url(#paint0_linear_1097_1478)" fill-opacity="0.3"/>
-																<defs>
-																<linearGradient id="paint0_linear_1097_1478" x1="385.35" y1="-193.809" x2="385.35" y2="140.599" gradientUnits="userSpaceOnUse">
-																<stop stop-color="#0E41C1" stop-opacity="0.870588"/>
-																<stop offset="1" stop-color="#0E41C1" stop-opacity="0.870588"/>
-																</linearGradient>
-																</defs>
-															</svg>
+														<div class="card-body">
+															<div id="kt_apexcharts_3" style="height: 200px;"></div>
 														</div>
 												    </div>
 													<!--end::Table Widget 9-->
@@ -458,31 +441,34 @@
 										</div>
 										<!--end::Col-->
 										<!--begin::Col-->
-										<div class="col-xl-8 mb-5 mb-xl-10">
+										<div class="col-xl-8 mb-5 mb-xl-10 flex-grow-1">
 											<!--begin::Table widget 10-->
-											<div class="card card-flush shadow-xs">
-												<div class="row gx-xl-10 p-5">
-													<div class="col-xl-4 mb-5 ">
-														<!--begin::Header-->
-														<div class="p-5">
-															<!--begin::Title-->
-															<h2 class=" fw-bold text-gray-800">
-																Upgrade your plan now!
-															</h2>
-															<!--end::Title-->
-															<p class="fs-14 mt-5 gray pt-2">
-																You don’t have to take our word for anything. Here, Try it now.
-															</p>
-														</div>
+											<div class="card card-flush shadow-xs h-100">
+												<div class="row gx-xl-10 p-5 h-100">
+													<div class="col-xl-4 mb-5 flex-groiw-1">
+														<div class="h-100 flex-column d-flex justify-content-between">
+															<!--begin::Header-->
+															<div class="p-5">
+																<!--begin::Title-->
+																<h2 class=" fw-bold text-gray-800">
+																	Upgrade your plan now!
+																</h2>
+																<!--end::Title-->
+																<p class="fs-14 mt-5 gray pt-2">
+																	You don’t have to take our word for anything. Here, Try it now.
+																</p>
+															</div>
 															<!--begin::button-->
-															<div class="">
-																<a href="#" class="btn btn-primary btn-grad ">Upgrade now</a>
+															<div class="mt-5">
+																<a href="#" class="btn btn-primary btn-grad mb-0">Upgrade now</a>
 															</div>
 															<!--end::button-->
+
+														</div>
 													</div>
 													<div class="col-xl-7 mb-5 offset-1">
-														<div class="text-center text-xl-center d-flex justify-content-end">
-															<img src="assets/img/home/Image.webp" height="250" alt="" />
+														<div class="text-center text-xl-center d-flex justify-content-end h-100 align-items-end">
+															<img width="328" height="321" class="img-fluid" loading="lazy" src="assets/img/home/Image.webp" alt="" />
 														</div>
 													</div>
 												</div>
@@ -509,6 +495,141 @@
 		</div>
 		<!--end::App-->
 		<?php include './include/footer-links.php'; ?>
+
+		<script>
+			var element = document.getElementById('kt_apexcharts_3');
+
+			var height = parseInt(KTUtil.css(element, 'height'));
+			var labelColor = KTUtil.getCssVariableValue('--kt-gray-500');
+			var borderColor = KTUtil.getCssVariableValue('--kt-gray-200');
+			var baseColor = "#0E41C1";
+			var lightColor = "rgba(14, 65, 193, .3)";
+
+			// if (!element) {
+			// 	return;
+			// }
+
+			var options = {
+				series: [{
+					name: 'Sent SMS',
+					data: [30, 40, 40, 90, 90, 70, 15, 30, 25, 60, 40, 5]
+				}],
+				chart: {
+					fontFamily: 'inherit',
+					type: 'area',
+					height: height,
+					toolbar: {
+						show: false
+					}
+				},
+				plotOptions: {
+
+				},
+				legend: {
+					show: false
+				},
+				dataLabels: {
+					enabled: false
+				},
+				fill: {
+					type: 'solid',
+					opacity: 1
+				},
+				stroke: {
+					curve: 'smooth',
+					show: true,
+					width: 3,
+					colors: [baseColor]
+				},
+				xaxis: {
+					categories: ['01', '02', '03', '04', '05', '06', '07', ' 08', '08', '10', '11', '12', '13'],
+					axisBorder: {
+						show: false,
+					},
+					axisTicks: {
+						show: false
+					},
+					labels: {
+						style: {
+							colors: labelColor,
+							fontSize: '12px'
+						}
+					},
+					crosshairs: {
+						position: 'front',
+						stroke: {
+							color: baseColor,
+							width: 1,
+							dashArray: 3
+						}
+					},
+					tooltip: {
+						enabled: true,
+						formatter: undefined,
+						offsetY: 0,
+						style: {
+							fontSize: '12px'
+						}
+					}
+				},
+				yaxis: {
+					labels: {
+						style: {
+							colors: labelColor,
+							fontSize: '12px'
+						}
+					}
+				},
+				states: {
+					normal: {
+						filter: {
+							type: 'none',
+							value: 0
+						}
+					},
+					hover: {
+						filter: {
+							type: 'none',
+							value: 0
+						}
+					},
+					active: {
+						allowMultipleDataPointsSelection: false,
+						filter: {
+							type: 'none',
+							value: 0
+						}
+					}
+				},
+				tooltip: {
+					style: {
+						fontSize: '12px'
+					},
+					y: {
+						formatter: function (val) {
+							return val + ' SMS'
+						}
+					}
+				},
+				colors: [lightColor],
+				grid: {
+					borderColor: borderColor,
+					strokeDashArray: 4,
+					yaxis: {
+						lines: {
+							show: true
+						}
+					}
+				},
+				markers: {
+					strokeColor: baseColor,
+					strokeWidth: 3
+				}
+			};
+
+			var chart = new ApexCharts(element, options);
+			chart.render();
+		</script>
 	</body>
 	<!--end::Body-->
 </html>
