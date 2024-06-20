@@ -78,6 +78,10 @@ div#kt_aside_menu_wrapper {
   overflow-y: hidden !important;
 }
 
+span.menu-link.menu-center, span.menu-link.menu-center:hover svg path {
+  transition: all .3s ease-in-out;
+}
+
 span.menu-link.menu-center:hover {
   background-color: #0e41c1;
 }
@@ -95,9 +99,8 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-message-text-2.icon-header{
     color: #fff !important;
 } */
 
-span.menu-link.menu-center:hover .svg.sidebar-svg {
-  color: #fff !important;
-  font-size: 2rem;
+span.menu-link.menu-center:hover svg path {
+  fill: #fff !important;
 }
 span.menu-link.menu-center:hover .ki-duotone,
 .ki-outline,
