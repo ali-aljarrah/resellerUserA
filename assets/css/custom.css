@@ -144,11 +144,17 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-setting-2.icon-header{
 .white-color {
   color: #ffffff !important;
 }
+.cyan-color{
+  color: #009EF7;
+}
 .bg-blue {
   background-color: #0e41c1;
 }
 .bg-green {
   background-color: #DAF9E9;
+}
+.cyan-bg{
+  background-color: #F1FAFF;
 }
 .purper-bg {
   background: #F8F5FF;
@@ -295,4 +301,16 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-setting-2.icon-header{
 
 .template-border-bottom {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.20);
+}
+.form-control.form-control-solid {
+  border-color: #000;
+  border: 1px solid #80808000;
+  border-bottom: 1px solid black;
+  color: var(--bs-gray-700);
+  transition: color .2s ease;
+  border-radius: 0px;
+  background-color: #f0f8ff00;
+}
+.bg-gradient{
+  background: -webkit-linear-gradient(#0e41c1, #0047ff) !important;
 }
