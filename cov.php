@@ -53,13 +53,13 @@
                                                 <div class="table-responsive">
                                                     <table id="coverage-table" class="table custom-table">
                                                         <thead>
-                                                            <tr class="fs-14 fw-600 dark-color">
-                                                                <th>Country Name</th>
-                                                                <th>ISO</th>
-                                                                <th>Network</th>
-                                                                <th>MCC</th>
-                                                                <th>MNC</th>
-                                                                <th>Status</th>
+                                                            <tr>
+                                                                <th class="white-color fs-16 fw-600">Country Name</th>
+                                                                <th class="white-color fs-16 fw-600">ISO</th>
+                                                                <th class="white-color fs-16 fw-600">Network</th>
+                                                                <th class="white-color fs-16 fw-600">MCC</th>
+                                                                <th class="white-color fs-16 fw-600">MNC</th>
+                                                                <th class="white-color fs-16 fw-600">Status</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
