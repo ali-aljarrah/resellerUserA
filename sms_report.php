@@ -113,7 +113,7 @@
                                                     <div class="table-responsive">
                                                         <table id="sent-sms-report" class="table table-bordered table-row-gray-300 gy-5 datatable">
                                                             <thead>
-                                                                <tr class="fs-14 fw-600 dark-color bg-gradient">
+                                                                <tr class="fs-14 fw-600 white-color bg-gradient">
                                                                     <th>ID</th>
                                                                     <th>Status</th>
                                                                     <th>Date</th>
