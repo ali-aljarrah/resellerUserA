@@ -233,7 +233,7 @@
             </div>
             <!--end:Menu item-->
               <!--begin:Menu item-->
-              <div class="menu-item py-2">
+              <div class="menu-item py-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Reload">
                 <!--begin:Menu link-->
                 <span class="menu-link menu-center">
                   <a class="menu-link" href="/reload_account_ec">
@@ -262,7 +262,8 @@
             </div>
             <!--end:Menu item-->
                   <!--begin:Menu item-->
-            <div class="menu-item py-2">
+
+            <div class="menu-item py-2" data-bs-toggle="tooltip" data-bs-placement="right" title="API References">
                 <!--begin:Menu link-->
                 <span class="menu-link menu-center">
                   <a class="menu-link" href="/api_references">
@@ -277,7 +278,8 @@
             </div>
             <!--end:Menu item-->
               <!--begin:Menu item-->
-            <div class="menu-item py-2">
+
+            <div class="menu-item py-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Coverage">
                 <!--begin:Menu link-->
                 <span class="menu-link menu-center">
                   <a class="menu-link" href="/cov">
@@ -292,7 +294,7 @@
             </div>
             <!--end:Menu item-->
                  <!--begin:Menu item-->
-            <div class="menu-item py-2">
+            <div class="menu-item py-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Settings">
                 <!--begin:Menu link-->
                 <span class="menu-link menu-center">
                   <a class="menu-link" href="/settings">                 
