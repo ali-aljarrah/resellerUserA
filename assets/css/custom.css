@@ -311,6 +311,11 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-setting-2.icon-header{
   border-radius: 0px;
   background-color: #f0f8ff00;
 }
-.bg-gradient{
-  background: -webkit-linear-gradient(#0e41c1, #0047ff) !important;
+button.btn.btn-secondary.buttons-csv.buttons-html5,
+button.btn.btn-secondary.buttons-excel.buttons-html5,
+button.btn.btn-secondary.buttons-pdf.buttons-html5{
+  background: #006ae6;
+    margin: 4px;
+    border-radius: 8px;
+    color: white;
 }

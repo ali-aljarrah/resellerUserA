@@ -100,35 +100,35 @@
                                                 </div> -->
                                                
                                             </div>
-                                            <div class="row">                                                  
+                                            <!-- <div class="row">                                                  
                                                     <div class="col-6">
                                                         sdddddddddddd
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             <!--end::Page title-->
                                             <!--begin::Card widget 4-->
                                             <div class="card card-flush border-0">
                                                 <!--begin::Card body-->
                                                 <div class="card-body pb-4 mt-0 pt-5 ps-0 pr-0">
                                                     <div class="table-responsive">
-                                                        <table id="sent-sms-report" class="table table-bordered table-row-gray-300 gy-5 datatable">
+                                                        <table id="sent-sms-report" class="table custom-table table-row-gray-300 gy-5 datatable">
                                                             <thead>
-                                                                <tr class="fs-14 fw-600 white-color bg-gradient">
-                                                                    <th>ID</th>
-                                                                    <th>Status</th>
-                                                                    <th>Date</th>
-                                                                    <th>Number</th>
-                                                                    <th>Country</th>
-                                                                    <th>Network</th>
-                                                                    <th>Type</th>
-                                                                    <th>Quantity</th>
-                                                                    <th>Message</th>
-                                                                    <th>Sender</th>
+                                                                <tr class="fs-14 fw-600">
+                                                                    <th class="white-color">ID</th>
+                                                                    <th class="white-color">Status</th>
+                                                                    <th class="white-color">Date</th>
+                                                                    <th class="white-color">Number</th>
+                                                                    <th class="white-color">Country</th>
+                                                                    <th class="white-color">Network</th>
+                                                                    <th class="white-color">Type</th>
+                                                                    <th class="white-color">Quantity</th>
+                                                                    <th class="white-color">Message</th>
+                                                                    <th class="white-color">Sender</th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td>001</td>
+                                                                    <td class="">001</td>
                                                                     <td class="text-success">Delivered</td>
                                                                     <td>11/08/2023</td>
                                                                     <td>-</td>
@@ -173,18 +173,18 @@
                                         </div>
                                         <!--end::Col-->
                                         <!--begin::Col-->
-										<div class="col-md-4 mb-md-0 mt-md-0 mb-5 mt-5">
+										<div class="col-md-6 mb-md-0 mt-md-0 mb-5 mt-5">
 											<div class="custom-border-left h-100 mt-10 mt-md-0">
 												<div class="p-8">
                                                     <div>
                                                         <div class="d-flex justify-content-start align-items-center mb-1">
-                                                            <div class="dark-color fs-16 fw-500 me-3">
+                                                            <div class="dark-color fs-16 fw-bold me-3">
                                                             Downloadable Reports
                                                             </div>
-                                                            <span class="fs-12 green-color fw-500 bg-green rounded-2 px-2 py-1">3 reports ready</span>
+                                                            <span class="fs-12 text-success fw-500 bg-green px-2 py-1">3 reports ready</span>
                                                         </div>
-                                                        <p class="fs-12 grey-color mb-0">
-                                                        Please note that the export time may vary depending on the size of the data.
+                                                        <p class="fs-12 color-neutral-grey mb-0">
+                                                             Please note that the export time may vary depending on the size of the data.
                                                         </p>
                                                     </div>
                                                     <div class="mt-6">
@@ -235,7 +235,7 @@
 		<!--end::Scrolltop-->
           <!--end::App-->
     
- 
+          <?php include './include/footer-links.php';?>
         <script src="/assets/js/sentreport.js"></script>
 </body>
 <!--end::Body-->
