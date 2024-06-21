@@ -76,6 +76,7 @@ body::-webkit-scrollbar-thumb {
 div#kt_aside_menu_wrapper {
   padding: 0px !important;
   overflow-y: hidden !important;
+  overflow-x: hidden !important;
 }
 
 span.menu-link, span.menu-link.menu-center:hover svg path {
@@ -101,6 +102,9 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-message-text-2.icon-header{
 
 span.menu-link.menu-center:hover svg path {
   fill: #fff !important;
+}
+span.menu-link.menu-center:hover svg.have-sec-child path:nth-child(2) {
+  fill: #0e41c1 !important;
 }
 span.menu-link.menu-center:hover .ki-duotone,
 .ki-outline,
