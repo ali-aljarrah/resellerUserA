@@ -150,6 +150,9 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-setting-2.icon-header{
 .bg-green {
   background-color: #DAF9E9;
 }
+.purper-bg {
+  background: #F8F5FF;
+}
 .blue {
   color: #0e41c1 !important;
 }
@@ -165,7 +168,9 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-setting-2.icon-header{
 .color-neutral-grey {
   color: #7E7E7E;
 }
-
+.purper-color {
+  color: #7239EA;
+}
 .fs-12 {
   font-size: 12px !important;
 }
@@ -281,4 +286,13 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-setting-2.icon-header{
 }
 .soft-blue {
   color: #a3aed0;
+}
+
+.templ-list {
+  height: 340px;
+  overflow-y: scroll;
+}
+
+.template-border-bottom {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.20);
 }
