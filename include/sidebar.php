@@ -103,21 +103,21 @@
                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                     <div class="menu-item">
                         <!--begin:Menu link-->
-                        <a class="menu-link" href="/hlr_lookup">
+                        <a class="menu-link" href="/hlr">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
-                            <span class="menu-title">HLR Lookup</span>
+                            <span class="menu-title">Single Lookup</span>
                         </a>
                         <!--end:Menu link-->
                     </div>
                     <div class="menu-item">
                         <!--begin:Menu link-->
-                        <a class="menu-link" href="/hlr_statistic">
+                        <a class="menu-link" href="/hlr_log">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
-                            <span class="menu-title">HLR Statistics</span>
+                            <span class="menu-title">Lookup Log</span>
                         </a>
                         <!--end:Menu link-->
                     </div>
@@ -220,11 +220,11 @@
                     <!--begin:Menu item-->
                     <div class="menu-item">
                        <!--begin:Menu link-->
-                       <a class="menu-link" href="/sms_report">
+                       <a class="menu-link" href="/sentreport">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
-                            <span class="menu-title">SMS Report</span>
+                            <span class="menu-title">Sent Report</span>
                         </a>
                         <!--end:Menu link-->
                     </div>
@@ -232,11 +232,11 @@
                     <!--begin:Menu item-->
                     <div class="menu-item">
                        <!--begin:Menu link-->
-                       <a class="menu-link" href="/sms_summary">
+                       <a class="menu-link" href="/queuereport">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
-                            <span class="menu-title">SMS Summary</span>
+                            <span class="menu-title">Queue Report</span>
                         </a>
                         <!--end:Menu link-->
                     </div>
@@ -244,11 +244,23 @@
                     <!--begin:Menu item-->
                     <div class="menu-item">
                         <!--begin:Menu link-->
-                        <a class="menu-link" href="/job_process">
+                        <a class="menu-link" href="/reloadreport">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
-                            <span class="menu-title">In Progress Summary</span>
+                            <span class="menu-title">Credits Report</span>
+                        </a>
+                        <!--end:Menu link-->
+                    </div>
+                    <!--end:Menu item-->
+                     <!--begin:Menu item-->
+                     <div class="menu-item">
+                        <!--begin:Menu link-->
+                        <a class="menu-link" href="/paymentsreport">
+                            <span class="menu-bullet">
+                                <span class="bullet bullet-dot"></span>
+                            </span>
+                            <span class="menu-title">Payments Report</span>
                         </a>
                         <!--end:Menu link-->
                     </div>

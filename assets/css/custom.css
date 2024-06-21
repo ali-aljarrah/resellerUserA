@@ -336,3 +336,11 @@ button.btn.btn-secondary.buttons-pdf.buttons-html5{
   background: #121212 !important;
   border-radius: 10px;
 }
+
+.fs-12.cyan-color.fw-bold.cyan-bg.rounded-2.p-2.cyan-border.mb-4.w-fit {
+  border: 1px solid !important;
+}
+.border-gray{
+  border: 1px solid #c3c3c3;
+  border-radius: 6px;
+}

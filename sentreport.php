@@ -1,6 +1,6 @@
 <?php include './include/head.php'; ?>
 
-<title>SMS Report</title>
+<title>Sent SMS Report</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -187,25 +187,31 @@
                                                              Please note that the export time may vary depending on the size of the data.
                                                         </p>
                                                     </div>
-                                                    <div class="mt-6">
+                                                    <div class="row mt-6">
+                                                        <div class="col-4">
                                                         <a href="#">
-                                                            <div class="fs-12 cyan-color fw-500 cyan-bg rounded-2 p-2 cyan-border mb-4 w-fit">
+                                                            <div class="fs-12 cyan-color fw-bold cyan-bg rounded-2 p-2 cyan-border mb-4 w-fit">
                                                                 <i class="bi bi-file-earmark-bar-graph cyan-color me-1"></i>
                                                                 <span>021-2023-01-29-2023-01-30.zip</span>
                                                             </div>
                                                         </a>
+                                                        </div>
+                                                        <div class="col-4">
                                                         <a href="#">
-                                                            <div class="fs-12 cyan-color fw-500 cyan-bg rounded-2 p-2 cyan-border mb-4 w-fit">
+                                                            <div class="fs-12 cyan-color fw-bold cyan-bg rounded-2 p-2 cyan-border mb-4 w-fit">
                                                                 <i class="bi bi-file-earmark-bar-graph cyan-color me-1"></i>
                                                                 <span>021-2023-01-29-2023-01-30.zip</span>
                                                             </div>
                                                         </a>
+                                                        </div>
+                                                        <div class="col-4">
                                                         <a href="#">
-                                                            <div class="fs-12 cyan-color fw-500 cyan-bg rounded-2 p-2 cyan-border mb-4 w-fit">
+                                                            <div class="fs-12 cyan-color fw-bold cyan-bg rounded-2 p-2 cyan-border mb-4 w-fit">
                                                                 <i class="bi bi-file-earmark-bar-graph cyan-color me-1"></i>
                                                                 <span>021-2023-01-29-2023-01-30.zip</span>
                                                             </div>
                                                         </a>
+                                                        </div>
                                                     </div>
 												</div>
 											</div>
