@@ -344,3 +344,51 @@ button.btn.btn-secondary.buttons-pdf.buttons-html5{
   border: 1px solid #c3c3c3;
   border-radius: 6px;
 }
+
+
+
+
+
+.hlr-block {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  margin-bottom: 8px;
+  min-width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.hlr-block .loading {
+  position: absolute;
+  background: gainsboro;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in-out;
+}
+
+.hlr-block .loading.show {
+  opacity: 1;
+  visibility: visible;
+  transition: all .3s ease-in-out;
+}
+
+.hlr-block .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:  -webkit-linear-gradient(#0e41c1, #0047ff) !important;
+  height: 100%;
+  width: 60px;
+  border-radius: 0px 5px 5px 0px;
+}
