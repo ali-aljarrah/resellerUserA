@@ -45,7 +45,7 @@
         <!--begin::Page-->
         <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
             <!--begin::Header-->
-            <?php $parentPage = 'Favorites'; $childPage = 'SMS Templates'; include 'include/header.php'?>
+            <?php $parentPage = 'Report'; $childPage = 'Payments Report'; include 'include/header.php'?>
             <!--end::Header-->
             <!--begin::Wrapper-->
             <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
@@ -164,7 +164,7 @@
 
 					<div class="modal-footer">
 						<button type="button" class="btn btn-primary btn-grad py-4 px-6 rounded-1 btn-bordered py-2 px-8" data-bs-dismiss="modal">Close</button>
-						<button id="print-btn" type="button" class="btn btn-outline-dark btn-bordered py-3 px-6 rounded-1">Print</button>
+						<button id="print-btn" type="button" class="btn btn-outline-dark btn-bordered py-4 px-6 rounded-1">Print</button>
 					</div>
 				</div>
 			</div>

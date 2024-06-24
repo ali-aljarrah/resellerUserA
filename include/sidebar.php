@@ -121,16 +121,16 @@
                         </a>
                         <!--end:Menu link-->
                     </div>
-                    <div class="menu-item">
-                        <!--begin:Menu link-->
+                    <!-- <div class="menu-item">
+                       
                         <a class="menu-link" href="/reload_hlr">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
                             <span class="menu-title">Reload HLR Account</span>
                         </a>
-                        <!--end:Menu link-->
-                    </div>
+                        
+                    </div> -->
                     </div>
                     <!--end:Menu item-->
                 </div>
