@@ -54,7 +54,7 @@
                                                                     <div class="ms-3">
                                                                         <!--begin::Badge-->
                                                                         <span class="badge badge-light-success fs-12 rounded-circle me-1">
-                                                                            <i class="ki-outline ki-arrow-up fs-5 text-success ms-n1"></i>
+                                                                            <i class="ki-outline ki-arrow-up fs-5 text-success pt-1"></i>
                                                                         </span>
                                                                         <!--end::Badge-->
                                                                         <span class="fs-14 text-success fw-bold">3%</span>
@@ -91,7 +91,7 @@
                                                                     <div class="ms-3">
                                                                         <!--begin::Badge-->
                                                                         <span class="badge badge-light-danger fs-base rounded-circle me-1">
-                                                                            <i class="ki-outline ki-arrow-down fs-5 text-danger ms-n1"></i>
+                                                                            <i class="ki-outline ki-arrow-down fs-5 text-danger pt-1"></i>
                                                                         </span>
                                                                         <!--end::Badge-->
                                                                         <span class=" text-danger">1</span>
@@ -128,7 +128,7 @@
                                                                     <div class="ms-3">
                                                                         <!--begin::Badge-->
                                                                         <span class="badge badge-light-success fs-base rounded-circle me-1">
-                                                                            <i class="ki-outline ki-arrow-up fs-5 text-success ms-n1"></i>
+                                                                            <i class="ki-outline ki-arrow-up fs-5 text-success pt-1"></i>
                                                                         </span>
                                                                         <!--end::Badge-->
                                                                         <span class="text-success">9%</span>
