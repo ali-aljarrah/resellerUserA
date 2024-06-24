@@ -163,8 +163,8 @@
 					<div id="invoice-body" class="modal-body"></div>
 
 					<div class="modal-footer">
-						<button type="button" class="btn btn-outline-dark btn-bordered py-2 px-8 rounded-2" data-bs-dismiss="modal">Close</button>
-						<button id="print-btn" type="button" class="btn btn-dark py-2 px-8 rounded-3">Print</button>
+						<button type="button" class="btn btn-primary btn-grad py-4 px-6 rounded-1 btn-bordered py-2 px-8" data-bs-dismiss="modal">Close</button>
+						<button id="print-btn" type="button" class="btn btn-outline-dark btn-bordered py-3 px-6 rounded-1">Print</button>
 					</div>
 				</div>
 			</div>
