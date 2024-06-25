@@ -150,6 +150,12 @@ span.menu-link.menu-center:hover i.ki-duotone.ki-setting-2.icon-header{
 .bg-blue {
   background-color: #0e41c1;
 }
+.bg-gradient{
+  background:  -webkit-linear-gradient(#0E41C1, #0047FF) !important;
+}
+.bg-soft-gray{
+  background-color: #F5F5F5;
+}
 .bg-green {
   background-color: #DAF9E9;
 }
@@ -391,4 +397,8 @@ button.btn.btn-secondary.buttons-pdf.buttons-html5{
   height: 100%;
   width: 60px;
   border-radius: 0px 5px 5px 0px;
+}
+
+.border-1{
+  border: 1px solid #e3e2e2;
 }

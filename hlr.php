@@ -166,7 +166,7 @@
                                                 <!--begin::Card body-->
                                                 <div class="card-body pb-2 mt-0 pt-0 ps-0 pr-0">
                                                     <form name="hlr_lookup" id="hlr_lookup">
-                                                        <label class="form-label required">Input number</label>
+                                                        <label class="form-label required pt-5">Input number</label>
                                                         <input type="text" name="number" id="number" maxlength="15" class="form-control form-control-solid" placeholder="Number" data-bs-toggle="tooltip" data-bs-placement="top" title="Please enter the number you wish to check with country code">
                                                         <input type="hidden" name="hlrtoken" id="hlrtoken" value="">
                                                         <div class="fs-14 color-neutral-grey my-5">
@@ -190,7 +190,8 @@
                                         </div>
                                         <!--end::Col-->
                                         <!--begin::Col-->
-										<div class="col-md-4 mb-md-0 mb-5 mt-5">
+									<div class="col-md-4 mb-md-0 mb-5 mt-5">
+                                        <div class="card card-flush shadow-xs h-100 border-0">
 											<div class="custom-border-left h-100 mt-10 mt-md-0">
 												<div class="p-8">
                                                     <div class="dark-color fs-16 fw-500 mb-5">
@@ -483,6 +484,8 @@
 										</div>
                                         <!--end::Col-->
                                     </div>
+                                    
+                                  </div>
                                     <!--end::Row-->
 								</div>
 								<!--end::Content container-->
