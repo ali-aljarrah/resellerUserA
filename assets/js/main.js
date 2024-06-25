@@ -18,171 +18,171 @@ $( document ).ready(function() {
         "hideMethod": "fadeOut"
     };
 
-    // if(document.getElementById("current-date")) {
-    //     document.getElementById("current-date").innerHTML = new Date().getFullYear();
-    // }
+    if(document.getElementById("current-date")) {
+        document.getElementById("current-date").innerHTML = new Date().getFullYear();
+    }
 
-    // $('.loader').fadeOut();
-    // setTimeout(() => {
-    //     $('.loader').removeClass('show');
-    // }, 1500);
+    $('.loader').fadeOut();
+    setTimeout(() => {
+        $('.loader').removeClass('show');
+    }, 1500);
 
-    // var url = window.location.pathname;
+    var url = window.location.pathname;
 
-    // if(url == '/') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#dashbaord-link').addClass('active');
-    // } else if (url == '/sendsms') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#sendsms-tab').addClass('hover');
-    //     $('#sendsms-tab').addClass('show');
-    //     $('#sendsms-content').addClass('show');
-    //     $('#sendsms-link').addClass('active');
-    // } else if (url == '/sendbulk') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#sendsms-tab').addClass('hover');
-    //     $('#sendsms-tab').addClass('show');
-    //     $('#sendsms-content').addClass('show');
-    //     $('#sendbulk-link').addClass('active');
-    // } else if (url == '/hlr') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#lookuo-tab').addClass('hover');
-    //     $('#lookuo-tab').addClass('show');
-    //     $('#lookuo-content').addClass('show');
-    //     $('#hlr-link').addClass('active');
-    // } else if (url == '/hlr_log') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#lookuo-tab').addClass('hover');
-    //     $('#lookuo-tab').addClass('show');
-    //     $('#lookuo-content').addClass('show');
-    //     $('#hlrlog-link').addClass('active');
-    // } else if (url == '/manage-temp') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#favorites-tab').addClass('hover');
-    //     $('#favorites-tab').addClass('show');
-    //     $('#favorites-content').addClass('show');
-    //     $('#managetemp-link').addClass('active');
-    // } else if (url == '/files-manager') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#favorites-tab').addClass('hover');
-    //     $('#favorites-tab').addClass('show');
-    //     $('#favorites-content').addClass('show');
-    //     $('#filesmanager-link').addClass('active');
-    // } else if (url == '/sentreport') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#reports-tab').addClass('hover');
-    //     $('#reports-tab').addClass('show');
-    //     $('#reports-content').addClass('show');
-    //     $('#sentreport-link').addClass('active');
-    // } else if (url == '/queuereport') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#reports-tab').addClass('hover');
-    //     $('#reports-tab').addClass('show');
-    //     $('#reports-content').addClass('show');
-    //     $('#queuereport-link').addClass('active');
-    // } else if (url == '/reloadreport') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#reports-tab').addClass('hover');
-    //     $('#reports-tab').addClass('show');
-    //     $('#reports-content').addClass('show');
-    //     $('#reloadreport-link').addClass('active');
-    // } else if (url == '/paymentsreport') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#reports-tab').addClass('hover');
-    //     $('#reports-tab').addClass('show');
-    //     $('#reports-content').addClass('show');
-    //     $('#paymentsreport-link').addClass('active');
-    // } else if (url == '/standard-quality') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#billing-tab').addClass('hover');
-    //     $('#billing-tab').addClass('show');
-    //     $('#billing-content').addClass('show');
-    //     $('#standard-link').addClass('active');
-    // } else if (url == '/high-quality') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#billing-tab').addClass('hover');
-    //     $('#billing-tab').addClass('show');
-    //     $('#billing-content').addClass('show');
-    //     $('#high-link').addClass('active');
-    // } else if (url == '/lookup_reload') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#billing-tab').addClass('hover');
-    //     $('#billing-tab').addClass('show');
-    //     $('#billing-content').addClass('show');
-    //     $('#lookupreload-link').addClass('active');
-    // } else if (url == '/coverage') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#coverage-link').addClass('active');
-    // } else if (url == '/help') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#help-link').addClass('active');
-    //     $('#kt_app_sidebar_menu_wrapper').scrollDivToElement('#help-link');
-    // } else if (url == '/settings') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#settings-link').addClass('active');
-    // } else if (url == '/api') {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    //     $('#api-link').addClass('active');
-    // } else {
-    //     $('.menu-link').removeClass('active');
-    //     $('.menu-item').removeClass('hover');
-    //     $('.menu-item').removeClass('show');
-    //     $('.menu-sub').removeClass('show');
-    // }
+    if(url == '/') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#dashbaord-link').addClass('active');
+    } else if (url == '/sendsms') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#sendsms-tab').addClass('hover');
+        $('#sendsms-tab').addClass('show');
+        $('#sendsms-content').addClass('show');
+        $('#sendsms-link').addClass('active');
+    } else if (url == '/sendbulk') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#sendsms-tab').addClass('hover');
+        $('#sendsms-tab').addClass('show');
+        $('#sendsms-content').addClass('show');
+        $('#sendbulk-link').addClass('active');
+    } else if (url == '/hlr') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#lookuo-tab').addClass('hover');
+        $('#lookuo-tab').addClass('show');
+        $('#lookuo-content').addClass('show');
+        $('#hlr-link').addClass('active');
+    } else if (url == '/hlr_log') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#lookuo-tab').addClass('hover');
+        $('#lookuo-tab').addClass('show');
+        $('#lookuo-content').addClass('show');
+        $('#hlrlog-link').addClass('active');
+    } else if (url == '/manage-temp') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#favorites-tab').addClass('hover');
+        $('#favorites-tab').addClass('show');
+        $('#favorites-content').addClass('show');
+        $('#managetemp-link').addClass('active');
+    } else if (url == '/files-manager') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#favorites-tab').addClass('hover');
+        $('#favorites-tab').addClass('show');
+        $('#favorites-content').addClass('show');
+        $('#filesmanager-link').addClass('active');
+    } else if (url == '/sentreport') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#reports-tab').addClass('hover');
+        $('#reports-tab').addClass('show');
+        $('#reports-content').addClass('show');
+        $('#sentreport-link').addClass('active');
+    } else if (url == '/queuereport') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#reports-tab').addClass('hover');
+        $('#reports-tab').addClass('show');
+        $('#reports-content').addClass('show');
+        $('#queuereport-link').addClass('active');
+    } else if (url == '/reloadreport') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#reports-tab').addClass('hover');
+        $('#reports-tab').addClass('show');
+        $('#reports-content').addClass('show');
+        $('#reloadreport-link').addClass('active');
+    } else if (url == '/paymentsreport') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#reports-tab').addClass('hover');
+        $('#reports-tab').addClass('show');
+        $('#reports-content').addClass('show');
+        $('#paymentsreport-link').addClass('active');
+    } else if (url == '/standard-quality') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#billing-tab').addClass('hover');
+        $('#billing-tab').addClass('show');
+        $('#billing-content').addClass('show');
+        $('#standard-link').addClass('active');
+    } else if (url == '/high-quality') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#billing-tab').addClass('hover');
+        $('#billing-tab').addClass('show');
+        $('#billing-content').addClass('show');
+        $('#high-link').addClass('active');
+    } else if (url == '/lookup_reload') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#billing-tab').addClass('hover');
+        $('#billing-tab').addClass('show');
+        $('#billing-content').addClass('show');
+        $('#lookupreload-link').addClass('active');
+    } else if (url == '/coverage') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#coverage-link').addClass('active');
+    } else if (url == '/help') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#help-link').addClass('active');
+        $('#kt_app_sidebar_menu_wrapper').scrollDivToElement('#help-link');
+    } else if (url == '/settings') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#settings-link').addClass('active');
+    } else if (url == '/api') {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+        $('#api-link').addClass('active');
+    } else {
+        $('.menu-link').removeClass('active');
+        $('.menu-item').removeClass('hover');
+        $('.menu-item').removeClass('show');
+        $('.menu-sub').removeClass('show');
+    }
 
 });
 
